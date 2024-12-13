@@ -9,9 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+        bkg: "rgb(var(--color-bkg) / <alpha-value>)",
+        content: "rgb(var(--color-content) / <alpha-value>)"
+      }
     },
   },
   plugins: [],

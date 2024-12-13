@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Welcome to SSN Validator web app for Shareware!
 
-## Getting Started
+Hi! I have build this app for tech challenge provided by ShareWare.
 
-First, run the development server:
+This app takes user input and it validates against suggested rules in document to provide user input  SSN is valid or not.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This one is developed with TypeScript, WebPack, Babel, TailwindCSS and Html. This solution does not use any framework but only uses simple TypeScript. One can check codebase inside app folder where index.js is entry point.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This app is developed with ES6 but has support for ES5 supported browsers browsers with babel's presets.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+I have put efforts so my skills with building tools such as webpack and babel, and knowledge of TS/JS can be visible. As well as my UX with CSS handling can be viewed in this demo project.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Online Links
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Github Repo](https://github.com/jaiminmoslake7020/shareware-vanilla/)
+- [Deployed app with Github pages](https://jaiminmoslake7020.github.io/shareware-vanilla/)
 
-## Learn More
+## Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+It requires that computer has node installed and npm installed. Follow this [link](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) if it is not installed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- Node
+- NPM
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How to run application locally.
 
-## Deploy on Vercel
+[Download code zip from Github](https://github.com/jaiminmoslake7020/shareware-vanilla/archive/refs/heads/main.zip)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Now you have at this point node and npm installed at your local machine.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+    yarn install
+    npm run build
+    npm run prod:serve
+
+**serve is using port 3000.**       
+
+
