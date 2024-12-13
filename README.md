@@ -1,20 +1,21 @@
+
 # Welcome to SSN Validator web app for Shareware!
 
 Hi! I have build this app for tech challenge provided by ShareWare.
 
-This app takes user input and it validates against suggested rules in document to provide user input  SSN is valid or not.
+This app takes user input and it validates against suggested rules in document to provide user input SSN is valid or not.
 
-This one is developed with TypeScript, WebPack, Babel, TailwindCSS and Html. This solution does not use any framework but only uses simple TypeScript. One can check codebase inside app folder where index.js is entry point.
+This one is developed with TypeScript, and NextJs (React), TailwindCSS.
 
-This app is developed with ES6 but has support for ES5 supported browsers browsers with babel's presets.
+This one to showcase my skills with NextJs and React which I am really comfortable with and have 5+ years of experience.
 
-I have put efforts so my skills with building tools such as webpack and babel, and knowledge of TS/JS can be visible. As well as my UX with CSS handling can be viewed in this demo project.
+I have also added Github action which builds and deploys app to Netlify on push to main branch.
 
 
 ## Online Links
 
-- [Github Repo](https://github.com/jaiminmoslake7020/shareware-vanilla/)
-- [Deployed app with Github pages](https://jaiminmoslake7020.github.io/shareware-vanilla/)
+- [Github Repo](https://github.com/jaiminmoslake7020/shareware-nextjs-app)
+- [Deployed app at Netlify ](https://thriving-fenglisu-04cbb4.netlify.app/)
 
 ## Prerequisites
 
@@ -22,17 +23,25 @@ It requires that computer has node installed and npm installed. Follow this [lin
 
 - Node
 - NPM
+- Yarn
+
+  Once npm is installed, one can install yarn easily with this command.
+
+```
+npm install --global yarn
+```
+
 
 ## How to run application locally.
 
-[Download code zip from Github](https://github.com/jaiminmoslake7020/shareware-vanilla/archive/refs/heads/main.zip)
+[Download code zip from Github](https://github.com/jaiminmoslake7020/shareware-nextjs-app/archive/refs/heads/main.zip)
 
 Now you have at this point node and npm installed at your local machine.
 
-    yarn install
-    npm run build
-    npm run prod:serve
+```
+    yarn install  
+    npm run build  
+    npm run prod:serve  
+```
 
-**serve is using port 3000.**       
-
-
+**serve is using port 3000.**
