@@ -83,3 +83,21 @@
   }
 
 }
+
+
+.notes-container{
+  @apply flex flex-col gap-2 max-w-[350px] lg:max-w-[550px] mt-4;
+
+  .notes-header{
+    @apply text-xs text-gray-500 font-semibold;
+  }
+
+  .notes-ul {
+    @apply list-disc pl-6;
+
+    li {
+      @apply text-xs text-gray-500 font-semibold;
+    }
+  }
+
+}
