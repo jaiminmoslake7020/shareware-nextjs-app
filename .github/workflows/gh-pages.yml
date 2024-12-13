@@ -89,4 +89,4 @@ jobs:
         run:  netlify deploy --prod --dir=out   # or the command you use to build your project
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID__AUTHOR_SITE }}  # Add this if you want to specify the site
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID__SHAREWARE_SITE_ID }}  # Add this if you want to specify the site
